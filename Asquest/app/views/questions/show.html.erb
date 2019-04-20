@@ -30,7 +30,7 @@
                 <%= answer.name %>
               </td>
               <td>
-                ['Edit'] ['Delete']
+                [<%= link_to 'Edit', edit_question_answer_path(@question, answer) %>] ['Delete']
               </td>
             </tr>
             <% end %>
